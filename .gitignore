@@ -1,0 +1,21 @@
+# PyTorch / Hugging Face / PEFT artifacts
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.npy
+*.npz
+
+# Model checkpoints
+checkpoint-*/
+
+# Hugging Face cache
+.hf/
+
+# Environment
+.env
+venv/
+.env.local
+
+# Output directories
+smollm2-sft/
